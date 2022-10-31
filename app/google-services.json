@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048347889174",
+    "project_id": "healthcare4all-558cc",
+    "storage_bucket": "healthcare4all-558cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048347889174:android:10aaeb99e259460f60ef37",
+        "android_client_info": {
+          "package_name": "com.example.healthcare4all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048347889174-4qfhf39rlb7d63j9hbp15kdskqua1ghe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBME-6EBB-QshZxtvSkdApLaicoES1PmUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048347889174-4qfhf39rlb7d63j9hbp15kdskqua1ghe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
