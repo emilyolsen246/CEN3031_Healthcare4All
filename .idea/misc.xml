@@ -5,9 +5,16 @@
       <map>
         <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/drawable/btn_background.xml" value="0.2985" />
         <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/drawable/edt_background.xml" value="0.2985" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_appointments.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_doctor_home_sreen.xml" value="0.25" />
         <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_prescriptions.xml" value="0.25" />
         <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/fragment_appointments.xml" value="0.25" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/fragment_prescriptions.xml" value="0.25" />
         <entry key="..\:/Users/wynnr/AndroidStudioProjects/healthcare4all/app/src/main/res/layout/user_layout.xml" value="0.24895833333333334" />
       </map>
     </option>
