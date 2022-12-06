@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         vpAdapter.addFragment(new Appointments(), "APPOINTMENTS");
         vpAdapter.addFragment(new Prescriptions(), "PRESCRIPTIONS");
         vpAdapter.addFragment(new Chat(), "CHAT");
+        vpAdapter.addFragment(new UserProfile(), "User Profile");
         viewPager.setAdapter(vpAdapter);
 
     }
