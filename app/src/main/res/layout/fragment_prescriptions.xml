@@ -17,6 +17,13 @@
         android:textStyle="bold"
         android:typeface="normal" />
 
+    <Button
+        android:id="@+id/bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="View My BIll" />
+
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"

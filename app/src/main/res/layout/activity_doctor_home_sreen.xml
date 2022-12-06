@@ -81,7 +81,7 @@
         app:layout_constraintTop_toTopOf="@+id/divider4" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/prescribe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -126,7 +126,7 @@
         app:layout_constraintTop_toTopOf="@+id/divider5" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/makeAppointment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Appointment"

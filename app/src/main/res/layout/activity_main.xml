@@ -19,13 +19,13 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="APPOINTMENTS" />
+            android:text="APPTS." />
 
         <com.google.android.material.tabs.TabItem
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PRESCRIPTIONS" />
+            android:text="Rx" />
 
         <com.google.android.material.tabs.TabItem
 

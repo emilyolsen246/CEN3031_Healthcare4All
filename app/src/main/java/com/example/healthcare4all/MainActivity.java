@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addFragment(new Appointments(), "APPOINTMENTS");
-        vpAdapter.addFragment(new Prescriptions(), "PRESCRIPTIONS");
+        vpAdapter.addFragment(new Appointments(), "APPTS.");
+        vpAdapter.addFragment(new Prescriptions(), "Rx");
         vpAdapter.addFragment(new Chat(), "CHAT");
+        vpAdapter.addFragment(new UserProfile(), "User Profile");
         viewPager.setAdapter(vpAdapter);
 
     }

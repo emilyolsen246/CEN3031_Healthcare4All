@@ -153,7 +153,7 @@ public class SignUp extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             if (!isDoctor)
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             else {
                                 startActivity(new Intent(getApplicationContext(), DoctorHomeSreen.class));
                             }
