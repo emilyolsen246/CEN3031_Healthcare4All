@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class Appointments extends Fragment {
 
-    Button bills;
+    //This is the page for any java code to support the Appointments xml page
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

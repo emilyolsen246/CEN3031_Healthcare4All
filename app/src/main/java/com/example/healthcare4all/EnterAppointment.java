@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class EnterAppointment extends AppCompatActivity {
-
+    //This is the java code behind the entering appointment page, any data will be stored here.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

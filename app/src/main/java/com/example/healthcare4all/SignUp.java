@@ -24,6 +24,7 @@ import java.util.Calendar;
 
 public class SignUp extends AppCompatActivity {
 
+    //initializes all variables.
     EditText firstName;
     EditText lastName;
     EditText username;
@@ -50,11 +51,11 @@ public class SignUp extends AppCompatActivity {
         enter_password = findViewById(R.id.password);
         button_signup = findViewById(R.id.signup);
 
-        doctor = findViewById(R.id.doctor);
+        doctor = findViewById(R.id.doctor); // checks if the user is a doctor.
 
         doctor.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) { // switches the boolean if the switch is toggled.
                 if (isChecked) {
                     isDoctor = true;
                 }
@@ -67,7 +68,7 @@ public class SignUp extends AppCompatActivity {
 
 
         mAuth = FirebaseAuth.getInstance();
-
+        //captures the email and password and sends it to the signup function.
         button_signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +79,7 @@ public class SignUp extends AppCompatActivity {
             }
         });
     }
-
+    //Code for the pop up date picker.
     private String getTodaysDate() {
         Calendar cal = Calendar.getInstance();
         int year = cal.get(Calendar.YEAR);
@@ -146,6 +147,7 @@ public class SignUp extends AppCompatActivity {
         datePickerDialog.show();
     }
 
+    //Creates a new user and adds them to the firebase database so they can login in the future. Also checks if they are a doctor.
     private void signUp(String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

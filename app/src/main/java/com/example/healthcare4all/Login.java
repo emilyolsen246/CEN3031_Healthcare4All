@@ -17,17 +17,20 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
 
+    //initializes the buttons and edit text
     EditText username;
     EditText enter_password;
     Button button_signup;
     Button button_login;
-
+    //initializes the firebase authentication variable
     FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //Sets all of the variables by finding the id.
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -36,6 +39,7 @@ public class Login extends AppCompatActivity {
         button_signup = findViewById(R.id.signup);
         button_login = findViewById(R.id.login);
 
+        //When clicking on signup, this will bring you to the sign up page.
         button_signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,6 +47,7 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        //When clicking login this will capture the email and password and send it over to the login function.
         button_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +59,7 @@ public class Login extends AppCompatActivity {
         });
 
     }
-
+    //The login function checks if the user exists and if so it proceeds to login, if not there is an error message.
     private void login(String email, String password) {
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

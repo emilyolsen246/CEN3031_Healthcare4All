@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 
 public class Prescriptions extends Fragment {
-
+//This is the prescriptions java code that will hold all prescription data and send it to the database.
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

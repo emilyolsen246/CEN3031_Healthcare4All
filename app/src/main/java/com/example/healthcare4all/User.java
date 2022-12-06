@@ -1,5 +1,6 @@
 package com.example.healthcare4all;
 
+//Stores the users name, email, and uid that is used with the firebase database.
 public class User {
     String name;
     String email;

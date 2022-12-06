@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
 
+//This is the code behind the home screen and all variables needed will be stored here.
 public class MainActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
